@@ -1,3 +1,19 @@
 li {
     padding-left: 5vw;
 }
+
+.ueberschrift {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.wayToUs {
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    list-style-type: none;
+}

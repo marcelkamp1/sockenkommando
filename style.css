@@ -17,5 +17,10 @@
    transform: translate(0%,-50%);
 
 }
-
  
+.seitensprung {
+    position: fixed;
+    right: 0;
+    z-index: 5;
+    background-color: white;    
+}

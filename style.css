@@ -2,7 +2,22 @@ li {
     padding-left: 5vw;
 }
 
-h1{
+.ueberschrift {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.wayToUs {
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    list-style-type: none;
+
+h1 {
     display: flex;
     justify-content: center;
     margin-top: 6vh;

@@ -1,6 +1,127 @@
-li {
-    padding-left: 5vw;
+/* Martin's CSS Teil !!! */
+
+$blue: #DDEDFF;
+$dark-blue: #0087FF;
+
+$yellow: #FEF0B2;
+$dark-yellow: #FFBD00; 
+
+$pink: #FAD2E1;
+$dark-pink: #F84F7F;
+
+$purple: #DFCCFF;
+$dark-purple: #7F51F4;
+
+@mixin color-panel($color1, $color2){
+    border: 1px solid $color2;
+    background-color: $color1;
+    color: $color2;
 }
+
+body {
+  margin: 4rem 0;
+}
+ 
+h4 {
+  margin-bottom:2rem;
+  margin-top: 3rem;
+}
+
+.panel {
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  
+  &.panel-blue {
+    @include color-panel($blue, $dark-blue);
+  }
+  
+  &.panel-yellow{
+    @include color-panel($yellow, $dark-yellow);
+  }
+  
+  &.panel-pink{
+    @include color-panel($pink, $dark-pink);
+  }
+  
+  &.panel-purple {
+    @include color-panel($purple, $dark-purple);
+  }
+}
+
+.intro .col{
+	border: 5px solid green;
+}
+
+
+.block{
+  float:left;
+  width:33.3%;
+  border:1px solid #cccccc;
+  padding:10px;
+  box-sizing:border-box; 
+}
+
+#main-block{
+  float:left;
+  width:70%;
+  border:1px solid #cccccc;
+  padding:15px;
+  box-sizing: border-box;
+}
+
+#sidebar{
+  float:right;
+  width:30%;
+  background-color:#333333;
+  color:#ffffff;
+  padding:15px;
+  box-sizing: border-box;
+}
+
+
+
+/*2. Teil */
+
+
+.col-1, .col-2, .col-3, .col-4,.col-5, .col-6, .col-7, .col-8, .col-9 {
+  height: 8vh;
+}
+
+.flex-container > div {
+  background-color: #ffffff;
+  width: 60px;
+  margin: 1px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+/* Make sure images don't get too big */
+img {
+  max-width: 100%;
+}
+
+
+
+/* no-gutters Class Rules */
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+
+
+
+/* Ende von Martin's CSS Teil !!! */
+
+
+
 
 .ueberschrift {
     display: flex;
@@ -36,3 +157,5 @@ h1 {
     align-self: center;
     justify-content: flex-end;
 }
+
+

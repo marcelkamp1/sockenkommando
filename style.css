@@ -16,4 +16,23 @@ li {
 
 .navbar li {
     list-style-type: none;
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+.fixed-right{
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
 }

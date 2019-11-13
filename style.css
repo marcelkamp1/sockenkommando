@@ -9,15 +9,21 @@ h1{
     margin-bottom: 2vh;
 }
 
-.container {
+.container .gallery{
     display: flex;
     justify-content: center;
     align-content: space-between;
 }
 
 
-.fixed-right{
-    display: flex;
-    align-self: center;
-    justify-content: flex-end;
+.fixed-left{
+    position: fixed;
+    margin-top: 50vh;
+    
+}
+
+footer a{
+    list-style: none;
+    margin-top: 20px;
+    color: black;
 }

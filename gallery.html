@@ -68,7 +68,11 @@
 
         <section>
 
-            <div class="container">
+            <div class="fixed-left">
+                <a href='gallery.html' class='btn btn-outline-dark' role='button'>Seitenanfang</a>
+            </div>
+
+            <div class="container gallery">
                 <div class="row no-gutters">
                     <h1 id="all">All</h1>
                     <div class="row no-gutters">
@@ -142,12 +146,10 @@
                     </div>
                 </div>
         </section>
-        <div class="fixed-right">
-            <a href='gallery.html' class='btn btn-outline-dark' role='button'>Seitenanfang</a>
-        </div>
+
         <section>
 
-            <div class="container">
+            <div class="container gallery">
                 <div class="row no-gutters">
                     <h1 id="top10">Top 10</h1>
                     <div class="row no-gutters">
@@ -223,17 +225,25 @@
         </section>
 
     </main>
-    <footer>
-        <nav class="navbar bottom navbar-light bg-light">
-            <a class="navbar-brand" href="#">Fixed bottom</a>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Impressum <span class="sr-only">(current)</span></a>
-            </li>
-        </nav>
+    <footer class="page-footer font-small pt-3 bg-dark">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="align-self-start">
+                    <ul class="list-unstyled navbar-nav">
+                        <li class="nav-item">
+                            <a href="#">AGB</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Impressum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
-
-
-
 </body>
 
 </html>

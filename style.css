@@ -1,3 +1,25 @@
 li {
     padding-left: 5vw;
 }
+
+.eventsjumb{
+    position: relative;
+    height: 40%;
+}
+
+
+.headerimg {
+    opacity: 0.5;
+    position: relative;
+    /*position: absolute;
+    top: 0%;*/
+}
+
+.eventbox {
+   position: absolute;
+   top: 50%;
+   transform: translate(0%,-50%);
+
+}
+
+ 

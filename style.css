@@ -15,6 +15,10 @@ h1{
     align-content: space-between;
 }
 
+.col{
+    margin-top: 25px;
+}
+
 
 .fixed-left{
     position: fixed;

@@ -1,48 +1,48 @@
 .ueberschrift {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5vh;
 }
 
 .wayToUs {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .navbar li {
-    list-style-type: none;
-    padding-left: 5vw;
+  list-style-type: none;
+  padding-left: 5vw;
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 6vh;
-    margin-bottom: 2vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 6vh;
+  margin-bottom: 2vh;
 }
 
-.container .gallery{
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
+.container .gallery {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
 }
 
 .seitensprung {
-    position: fixed;
-    right: 0;
-    z-index: 5;
-    background-color: white;    
+  position: fixed;
+  right: 0;
+  z-index: 5;
+  background-color: white;
 }
 
-footer a{
-    list-style: none;
-    margin-top: 20px;
-    color: black;
+footer a {
+  list-style: none;
+  margin-top: 20px;
+  color: black;
 }
 
 main {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }

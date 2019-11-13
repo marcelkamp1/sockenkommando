@@ -159,3 +159,29 @@ h1 {
 }
 
 
+.eventsjumb{
+    position: relative;
+    height: 40%;
+}
+
+
+.headerimg {
+    opacity: 0.5;
+    position: relative;
+    /*position: absolute;
+    top: 0%;*/
+}
+
+.eventbox {
+   position: absolute;
+   top: 50%;
+   transform: translate(0%,-50%);
+
+}
+ 
+.seitensprung {
+    position: fixed;
+    right: 0;
+    z-index: 5;
+    background-color: white;    
+}

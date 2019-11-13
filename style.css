@@ -6,7 +6,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5vw;
+    margin-top: 5vh;
 }
 
 .wayToUs {
@@ -30,9 +30,8 @@ h1 {
     align-content: space-between;
 }
 
-
-.fixed-right{
-    display: flex;
-    align-self: center;
-    justify-content: flex-end;
+.mittiglinks {
+    position: fixed;
+    margin-top: 50vh;
+    color: red;
 }

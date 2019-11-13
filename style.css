@@ -35,7 +35,6 @@ h1 {
   z-index: 5;
   background-color: white;
 }
-
 footer a {
   list-style: none;
   margin-top: 20px;
@@ -45,4 +44,22 @@ footer a {
 main {
   display: flex;
   justify-content: flex-start;
+}
+
+.eventsjumb {
+  position: relative;
+  height: 40%;
+}
+
+.headerimg {
+  opacity: 0.5;
+  position: relative;
+  /*position: absolute;
+    top: 0%;*/
+}
+
+.eventbox {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
 }

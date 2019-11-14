@@ -1,22 +1,39 @@
-.ueberschrift {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 5vh;
-}
-
-.wayToUs {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
+/* Settings für Navbar, Footer und Sprung nach oben, Asp. Michael */
 
 .navbar li {
   list-style-type: none;
   padding-left: 5vw;
 }
 
-h1 {
+.mk_seitensprung {
+  position: fixed;
+  right: 0;
+  z-index: 5;
+  background-color: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  color: black;
+  list-style: none;
+}
+
+footer .copyright {
+  margin-top: initial;
+  margin-bottom: initial;
+  font-size: 1rem;
+}
+
+/* Body-Settings */
+
+.mk_wayToUs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mk_h1 {
   display: flex;
   justify-content: center;
   margin-top: 6vh;
@@ -29,37 +46,30 @@ h1 {
   align-content: space-between;
 }
 
-.seitensprung {
-  position: fixed;
-  right: 0;
-  z-index: 5;
-  background-color: white;
-}
-footer a {
-  list-style: none;
-  margin-top: 20px;
-  color: black;
-}
-
-main {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.eventsjumb {
+.sb_eventsjumb {
   position: relative;
   height: 40%;
 }
 
-.headerimg {
+.sb_headerimg {
   opacity: 0.5;
   position: relative;
   /*position: absolute;
     top: 0%;*/
 }
 
-.eventbox {
+.sb_eventbox {
   position: absolute;
   top: 50%;
   transform: translate(0%, -50%);
+}
+
+.mk_gmap {
+  width: 600px;
+  height: 450px;
+}
+
+.mk_gmap:hover {
+  width: 800px;
+  height: 600px;
 }

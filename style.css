@@ -1,4 +1,5 @@
-.jumbotron{
+
+.sb_jumbotron {
     position: relative;
     height: 300px;
     overflow: hidden;
@@ -6,16 +7,12 @@
 }
 
 
-.headerimg {
+.sb_headerimg {
     opacity: 0.5;
     position: relative;
-  
-    
-    /*position: absolute;
-    top: 0%;*/
 }
 
-.eventbox {
+.sb_eventbox {
    position: absolute;
    top: 50%;
    transform: translate(0%,-50%);
@@ -27,4 +24,19 @@
     right: 0;
     z-index: 5;
     background-color: white;    
+}
+
+.card {
+    width: 18rem;
+    height: 25rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.card-img-top{
+    height: 190px;
+
+}
+.card:hover {
+	border: 3px solid grey;
 }

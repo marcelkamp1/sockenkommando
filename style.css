@@ -60,6 +60,13 @@ span.sternebewertung {
   margin-left: 22%;
 }
 
+.sb_jumbotron {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    padding: 0;
+}
+
 span.sternebewertung:not(:checked) > input {
  display: None;
 }
@@ -138,3 +145,15 @@ display: none;
   width: 800px;
   height: 600px;
 }
+.sb_headerimg {
+    opacity: 0.5;
+    position: relative;
+}
+
+.sb_eventbox {
+   position: absolute;
+   top: 50%;
+   transform: translate(0%,-50%);
+
+}
+  

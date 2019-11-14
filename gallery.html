@@ -14,31 +14,29 @@
 </head>
 
 <body>
-
-    <head>
+    <!-- Navbar und Seitensprung Start -->
+    <header>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand" href="#">Bonn. The city</a>
+            <a class="navbar-brand" href="index.html">Bonn. The city</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdownMenuLink"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Gallery
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="events.html" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Events
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#all">All</a>
-                            <a class="dropdown-item" href="#top10">Top 10</a>
+                            <a class="dropdown-item" href="events.html#up">Upcoming Events</a>
+                            <a class="dropdown-item" href="events.html#art">Art & Culture</a>
+                            <a class="dropdown-item" href="events.html#music">Music</a>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -46,203 +44,412 @@
                             Sight Seeing
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Museum</a>
-                            <a class="dropdown-item" href="#">Drink&Eat</a>
-                            <a class="dropdown-item" href="#">etc.</a>
+                            <a class="dropdown-item" href="sightseeing.html">Buildings</a>
+                            <a class="dropdown-item" href="sightseeing.html#Besonderheiten">Specials</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href='#' class="btn btn-outline-success" role='button'>Contact Us</a>
+                        <a href='contact.html' class="btn btn-outline-primary active" role='button' aria-pressed="true">Contact
+                            Us</a>
                     </li>
                 </ul>
             </div>
-
             <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
             </form>
         </nav>
-    </head>
-
+    </header>
     <main>
-
-        <section>
-
-            <div class="fixed-left">
-                <a href='gallery.html' class='btn btn-outline-dark' role='button'>Seitenanfang</a>
-            </div>
-
-            <div class="container gallery">
-                <div class="row no-gutters">
-                    <h1 id="all">All</h1>
-                    <div class="row no-gutters">
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/castle-437498_1920.jpg" class="card-img-top" alt="castle">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/cherry-wood-3334503_1920.jpg" class="card-img-top" alt="cherry">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/dragon-rock-3388803_1920.jpg" class="card-img-top" alt="dragon1">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/dragon-rock-3512650_1920.jpg" class="card-img-top" alt="dragon2">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/grove-of-trees-3646270_1920.jpg" class="card-img-top"
-                                    alt="groveOfTrees">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/ship-3776599_1920.jpg" class="card-img-top" alt="ship">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <section>
-
-            <div class="container gallery">
-                <div class="row no-gutters">
-                    <h1 id="top10">Top 10</h1>
-                    <div class="row no-gutters">
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/castle-437498_1920.jpg" class="card-img-top" alt="castle">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/cherry-wood-3334503_1920.jpg" class="card-img-top" alt="cherry">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/dragon-rock-3388803_1920.jpg" class="card-img-top" alt="dragon1">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk
-                                        of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/dragon-rock-3512650_1920.jpg" class="card-img-top" alt="dragon2">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/grove-of-trees-3646270_1920.jpg" class="card-img-top"
-                                    alt="groveOfTrees">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <img src="images/ship-3776599_1920.jpg" class="card-img-top" alt="ship">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of
-                                        the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-    </main>
-    <footer class="page-footer font-small pt-3 bg-dark">
-        <div class="container text-center text-md-left">
-            <div class="row">
-                <div class="align-self-start">
-                    <ul class="list-unstyled navbar-nav">
-                        <li class="nav-item">
-                            <a href="#">AGB</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">Impressum</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="mk_seitensprung">
+            <a href='gallery.html' class='btn btn-outline-primary' role='button'>Seitenanfang</a>
         </div>
+        <!-- Navbar und Seitensprung Ende -->
+        <!-- Container, mit Content -->
+        <section>
+            <div class="container gallery">
+                <div class="row no-gutters">
+                    <h1 class="gallery">Top 10</h1>
+                </div>
+                <div class="row no-gutters">
+                    <!-- Card 1 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/ubahn.jpg" class="card-img-top" alt="ubahn">
+                            <div class="card-body">
+                                <p class="card-text">Subway Bonn</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/rhein.jpg" class="card-img-top" alt="rhein">
+                            <div class="card-body">
+                                <p class="card-text">Impressions Rhinescape</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/fireworks-1759_640.jpg" class="card-img-top" alt="firework">
+                            <div class="card-body">
+                                <p class="card-text">Impressions of Rhine in flames</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- Unterer Seiteninhalt "All" -->
+            <div class="container gallery">
+                <div class="row no-gutters">
+                    <h1 class="gallery">All</h1>
+                </div>
+                <div class="row no-gutters">
+                    <!-- Card 1 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/castle-437498_1920.jpg" class="card-img-top" alt="castle">
+                            <div class="card-body">
+                                <p class="card-text">Castle on a hill</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern15" name="bewertung1" value="5"><label
+                                            for="stern15" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern14" name="bewertung1" value="4"><label
+                                            for="stern14" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern13" name="bewertung1" value="3"><label
+                                            for="stern13" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern12" name="bewertung1" value="2"><label
+                                            for="stern12" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern11" name="bewertung1" value="1"><label
+                                            for="stern11" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung1"><label><input type="radio" name="bewertung1" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/cherry-wood-3334503_1920.jpg" class="card-img-top" alt="cherry">
+                            <div class="card-body">
+                                <p class="card-text">Dream of cherryblossoms</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern25" name="bewertung2" value="5"><label
+                                            for="stern25" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern24" name="bewertung2" value="4"><label
+                                            for="stern24" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern23" name="bewertung2" value="3"><label
+                                            for="stern23" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern22" name="bewertung2" value="2"><label
+                                            for="stern22" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern21" name="bewertung2" value="1"><label
+                                            for="stern21" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung2"><label><input type="radio" name="bewertung2" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/dragon-rock-3388803_1920.jpg" class="card-img-top" alt="dragon1">
+                            <div class="card-body">
+                                <p class="card-text">Dragonrock and Rhinescape</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern35" name="bewertung3" value="5"><label
+                                            for="stern35" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern34" name="bewertung3" value="4"><label
+                                            for="stern34" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern33" name="bewertung3" value="3"><label
+                                            for="stern33" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern32" name="bewertung3" value="2"><label
+                                            for="stern32" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern31" name="bewertung3" value="1"><label
+                                            for="stern31" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung3"><label><input type="radio" name="bewertung3" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/dragon-rock-3512650_1920.jpg" class="card-img-top" alt="dragon2">
+                            <div class="card-body">
+                                <p class="card-text">Dragonrock and Landscape</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern45" name="bewertun4g" value="5"><label
+                                            for="stern45" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern44" name="bewertun4g" value="4"><label
+                                            for="stern44" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern43" name="bewertun4g" value="3"><label
+                                            for="stern43" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern42" name="bewertun4g" value="2"><label
+                                            for="stern42" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern41" name="bewertun4g" value="1"><label
+                                            for="stern41" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung4"><label><input type="radio" name="bewertung4" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/grove-of-trees-3646270_1920.jpg" class="card-img-top" alt="groveOfTrees">
+                            <div class="card-body">
+                                <p class="card-text">Grove of trees</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern55" name="bewertung5" value="5"><label
+                                            for="stern55" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern54" name="bewertung5" value="4"><label
+                                            for="stern54" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern53" name="bewertung5" value="3"><label
+                                            for="stern53" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern52" name="bewertung5" value="2"><label
+                                            for="stern52" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern51" name="bewertung5" value="1"><label
+                                            for="stern51" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung5"><label><input type="radio" name="bewertung5" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/ship-3776599_1920.jpg" class="card-img-top" alt="ship">
+                            <div class="card-body">
+                                <p class="card-text">Moby Dick Ship</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern65" name="bewertung6" value="5"><label
+                                            for="stern65" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern64" name="bewertung6" value="4"><label
+                                            for="stern64" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern63" name="bewertung6" value="3"><label
+                                            for="stern63" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern62" name="bewertung6" value="2"><label
+                                            for="stern62" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern61" name="bewertung6" value="1"><label
+                                            for="stern61" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung6"><label><input type="radio" name="bewertung6" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 7 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/fireworks-1759_640.jpg" class="card-img-top" alt="firework">
+                            <div class="card-body">
+                                <p class="card-text">Impressions of Rhine in flames</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern75" name="bewertung7" value="5"><label
+                                            for="stern75" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern74" name="bewertung7" value="4"><label
+                                            for="stern74" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern73" name="bewertung7" value="3"><label
+                                            for="stern73" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern72" name="bewertung7" value="2"><label
+                                            for="stern72" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern71" name="bewertung7" value="1"><label
+                                            for="stern71" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung7"><label><input type="radio" name="bewertung7" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 8 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/ubahn.jpg" class="card-img-top" alt="ubahn">
+                            <div class="card-body">
+                                <p class="card-text">Subway Bonn</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern85" name="bewertung8" value="5"><label
+                                            for="stern85" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern84" name="bewertung8" value="4"><label
+                                            for="stern84" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern83" name="bewertung8" value="3"><label
+                                            for="stern83" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern82" name="bewertung8" value="2"><label
+                                            for="stern82" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern81" name="bewertung8" value="1"><label
+                                            for="stern81" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung8"><label><input type="radio" name="bewertung8" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 9 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/bonn.png" class="card-img-top" alt="bonn">
+                            <div class="card-body">
+                                <p class="card-text">Citysign Bonn</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern95" name="bewertung9" value="5"><label
+                                            for="stern95" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern94" name="bewertung9" value="4"><label
+                                            for="stern94" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern93" name="bewertung9" value="3"><label
+                                            for="stern93" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern92" name="bewertung9" value="2"><label
+                                            for="stern92" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern91" name="bewertung9" value="1"><label
+                                            for="stern91" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung9"><label><input type="radio" name="bewertung9" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 10 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/climate.jpg" class="card-img-top" alt="climate">
+                            <div class="card-body">
+                                <p class="card-text">Climate-demonstration Bonn</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern105" name="bewertung10" value="5"><label
+                                            for="stern105" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern104" name="bewertung10" value="4"><label
+                                            for="stern104" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern103" name="bewertung10" value="3"><label
+                                            for="stern103" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern102" name="bewertung10" value="2"><label
+                                            for="stern102" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern101" name="bewertung10" value="1"><label
+                                            for="stern101" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung10"><label><input type="radio" name="bewertung10" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 11 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/telekom.jpg" class="card-img-top" alt="telekom">
+                            <div class="card-body">
+                                <p class="card-text">Deutsche Telekom</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern115" name="bewertung11" value="5"><label
+                                            for="stern115" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern114" name="bewertung11" value="4"><label
+                                            for="stern114" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern113" name="bewertung11" value="3"><label
+                                            for="stern113" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern112" name="bewertung11" value="2"><label
+                                            for="stern112" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern111" name="bewertung11" value="1"><label
+                                            for="stern111" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung11"><label><input type="radio" name="bewertung11" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 12 -->
+                    <div class="col gallery">
+                        <div class="card gallery">
+                            <img src="images/rhein.jpg" class="card-img-top" alt="rhein">
+                            <div class="card-body">
+                                <p class="card-text">Impressions Rhinescape</p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="sternebewertung">
+                                        <input type="radio" id="stern125" name="bewertung12" value="5"><label
+                                            for="stern125" title="5 Sterne">5 Sterne</label>
+                                        <input type="radio" id="stern124" name="bewertung12" value="4"><label
+                                            for="stern124" title="4 Sterne">4 Sterne</label>
+                                        <input type="radio" id="stern123" name="bewertung12" value="3"><label
+                                            for="stern123" title="3 Sterne">3 Sterne</label>
+                                        <input type="radio" id="stern122" name="bewertung12" value="2"><label
+                                            for="stern122" title="2 Sterne">2 Sterne</label>
+                                        <input type="radio" id="stern121" name="bewertung12" value="1"><label
+                                            for="stern121" title="1 Stern">1 Stern</label>
+                                        <span id="Bewertung12"><label><input type="radio" name="bewertung12" value="0"
+                                                    checked="checked"></label></span>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Main Content Ende -->
+    </main>
+    <!-- Footer Start -->
+
+    <footer class="navbar bottom navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Bonn. The city</a>
+        <a class="navbar-brand" href="#">Impressum</a>
+        <a class="navbar-brand" href="#">Datenschutz</a>
+        <a class="navbar-brand" href="#">AGBs</a>
+        <p class="navbar-brand copyright">Copyright &copy 2019; Sockenkomando</p>
     </footer>
+
+    <!-- Footer Ende -->
 </body>
 
 </html>

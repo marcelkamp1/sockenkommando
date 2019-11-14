@@ -33,7 +33,11 @@ footer .copyright {
   align-items: center;
 }
 
-.mk_h1 {
+.col.gallery{
+    margin-top: 1vh;
+}
+
+.mk_h1{
   display: flex;
   justify-content: center;
   margin-top: 6vh;
@@ -46,22 +50,83 @@ footer .copyright {
   align-content: space-between;
 }
 
-.sb_eventsjumb {
-  position: relative;
-  height: 40%;
+/* Bewertungsbuttons START */
+span#Bewertung {
+ line-height: 45px;
 }
 
-.sb_headerimg {
-  opacity: 0.5;
-  position: relative;
-  /*position: absolute;
-    top: 0%;*/
+span.sternebewertung {
+  float: left;
+  margin-left: 22%;
 }
 
-.sb_eventbox {
-  position: absolute;
-  top: 50%;
-  transform: translate(0%, -50%);
+span.sternebewertung:not(:checked) > input {
+ display: None;
+}
+
+span.sternebewertung:not(:checked) > label {
+ float: Right;
+ width: 1em;
+ padding: 0 .1em;
+ overflow: Hidden;
+ white-space: Nowrap;
+ cursor: Pointer;
+ font-size: 200%;
+ line-height: 1.2;
+ color: #D0D0D0;
+ text-shadow: 1px 1px #B0B0B0, 2px 2px #606060, .1em .1em .2em rgba(0,0,0,.5);
+ transition: all .5s;
+}
+
+span.sternebewertung:not(:checked) > label:before {
+ content: '★ ';
+}
+
+span.sternebewertung > input:checked ~ label {
+ color: #FFD700;
+ text-shadow: 1px 1px #C06000, 2px 2px #904000, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+span.sternebewertung:not(:checked) > label:hover,
+span.sternebewertung:not(:checked) > label:hover ~ label {
+ color: #FFD700;
+ text-shadow: 1px 1px #F29E02, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+span.sternebewertung > input:checked + label:hover,
+span.sternebewertung > input:checked + label:hover ~ label,
+span.sternebewertung > input:checked ~ label:hover,
+span.sternebewertung > input:checked ~ label:hover ~ label,
+span.sternebewertung > label:hover ~ input:checked ~ label {
+ color: #F9B500;
+ text-shadow: 1px 1px #F8BA01, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+input {
+display: none;
+}
+
+/* Bewertung ENDE */
+
+
+/* Card settings */
+.card {
+  width: 18rem;
+  height: 25rem;
+  cursor: pointer;
+  margin: 10px;
+}
+.card.gallery{
+  text-align: center;
+  height: auto;
+}
+
+.card-img-top{
+  height: 190px;
+
+}
+.card:hover {
+  border: 3px solid grey;
 }
 
 .mk_gmap {

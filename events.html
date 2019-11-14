@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html>
+<html lang="en">
 
 <head>
   <title>Events Bonn</title>
@@ -34,7 +34,7 @@
             <a class="dropdown-item" href="gallery.html#top10">Top 10</a>
           </div>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="events.html" id="navbarDropdownMenuLink" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Events
@@ -66,7 +66,6 @@
       <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
     </form>
   </nav>
-  </header>
 
   <main>
 
@@ -77,27 +76,25 @@
     <!-- Navbar und Seitensprung Ende -->
 
     <!--Jumbotron-->
-    <main>
-      <div class="sb_jumbotron">
-        <img class="sb_headerimg" src="images/cherry-wood-3334503_1920.jpg" alt="alt">
-        <div class="sb_eventbox">
-          <h1 class="display-4 eventsdisplay-4" style="color:black">Events in Bonn</h1>
-          <p class="lead" style="color: black">There are many things to experience in Bonn. Whether you are interested
-            in art and culture, music or sport events. The city of Bonn offers interesting events for everyone.</p>
-        </div>
+    <div class="sb_jumbotron">
+      <img class="sb_headerimg" src="images/cherry-wood-3334503_1920.jpg" alt="alt">
+      <div class="sb_eventbox">
+        <h1 class="display-4 eventsdisplay-4" style="color:black">Events in Bonn</h1>
+        <p class="lead" style="color: black">There are many things to experience in Bonn. Whether you are interested
+          in art and culture, music or sport events. The city of Bonn offers interesting events for everyone.</p>
       </div>
-    </main>
+    </div>
     <hr />
+
     <!-- Upcoming Events-->
     <section>
       <div class="container">
-        <h1 id="up">Upcoming Events</h1>
-
-        <div class="row">
-          <div class="col">
-            <!-- 1.Card-->
+        <h1 class="mk_h1" id="up">Upcoming Events</h1>
+        <div class="row no-gutters">
+          <!-- 1.Card-->
+          <div class="col events">
             <div class="card">
-              <img class="card-img-top" src="images/carnival-2092819_1920.jpg" height="190px" alt="Card image cap">
+              <img class="card-img-top" src="images/carnival-2092819_1920.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Carnival</h5>
                 <p class="card-text">Celebrate carnival with us! Or as people say here: The 5th season of the year has
@@ -107,10 +104,10 @@
             </div>
           </div>
 
-          <div class="col">
-            <!-- 2.Card-->
+          <!-- 2.Card-->
+          <div class="col events">
             <div class="card">
-              <img class="card-img-top" src="images/fireworks-1759_640.jpg" height="190px" alt="Card image cap">
+              <img class="card-img-top" src="images/fireworks-1759_640.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Rhine in flames</h5>
                 <p class="card-text">Would you like to see the Rhine shine? You will experience fantastic fireworks...
@@ -120,11 +117,10 @@
             </div>
           </div>
 
-
-          <div class="col">
-            <!-- 3.Card-->
-            <div class="card" style="width: 18rem; height: 25rem;">
-              <img class="card-img-top" src="images/running-1944798_1920.jpg" height="190px" alt="Card image cap">
+          <!-- 3.Card-->
+          <div class="col events">
+            <div class="card">
+              <img class="card-img-top" src="images/running-1944798_1920.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Beuler10er</h5>
                 <p class="card-text">Beueler 10er is road race over 5 or 10 km and an ideal speed test before Bonn
@@ -133,6 +129,7 @@
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -141,12 +138,12 @@
     <!-- Art & Culture-->
     <section>
       <div class="container">
-        <h1 id="art">Art & Culture</h1>
-        <div class="row">
+        <h1 class="mk_h1" id="art">Art & Culture</h1>
+        <div class="row no-gutters">
+          <!-- 1.Card-->
           <div class="col">
-            <!-- 1.Card-->
-            <div class="card" style="width: 18rem; height: 25rem;">
-              <img class="card-img-top" src="images/theater-432045_1920.jpg" height="190px alt=" Card image cap">
+            <div class="card">
+              <img class="card-img-top" src="images/theater-432045_1920.jpg" alt=" Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Theatre</h5>
                 <p class="card-text">Here you can find all information about performances at the theatres Bonn...</p>
@@ -155,10 +152,10 @@
             </div>
           </div>
 
+          <!-- 2.Card-->
           <div class="col">
-            <!-- 2.Card-->
-            <div class="card" style="width: 18rem; height: 25rem;">
-              <img class="card-img-top" src="images/opera-594592_1920.jpg" height="190px alt=" Card image cap">
+            <div class="card">
+              <img class="card-img-top" src="images/opera-594592_1920.jpg" alt=" Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Opera</h5>
                 <p class="card-text">Here you can find all information about performances in the Opera Bonn...</p>
@@ -167,11 +164,10 @@
             </div>
           </div>
 
-
+          <!-- 3.Card-->
           <div class="col">
-            <!-- 3.Card-->
-            <div class="card" style="width: 18rem; height: 25rem;">
-              <img class="card-img-top" src="images/cinema-4609877_1920.jpg" height="190px alt=" Card image cap">
+            <div class="card">
+              <img class="card-img-top" src="images/cinema-4609877_1920.jpg" alt=" Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Cinema</h5>
                 <p class="card-text">Here you will find an overview of all cinemas in Bonn and the surrounding
@@ -184,16 +180,18 @@
       </div>
     </section>
     <hr />
+
+
     <!-- Music-->
     <section>
       <div class="container">
-        <h1 id="music">Music</h1>
+        <h1 class="mk_h1" id="music">Music</h1>
+        <div class="row no-gutters">
 
-        <div class="row">
+          <!-- 1.Card-->
           <div class="col">
-            <!-- 1.Card-->
-            <div class="card" style="width: 18rem; height: 25rem;">
-              <img class="card-img-top" src="images/concert-768722_1920.jpg" height="190px alt=" Card image cap">
+            <div class="card">
+              <img class="card-img-top" src="images/concert-768722_1920.jpg" alt=" Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Concerts</h5>
                 <p class="card-text">Here you will find an overview of all current concerts in different locations in
@@ -203,10 +201,10 @@
             </div>
           </div>
 
+          <!-- 2.Card-->
           <div class="col">
-            <!-- 2.Card-->
-            <div class="card" style="width: 18rem; height: 25rem;">
-              <img class="card-img-top" src="images/audio-1851517_1920.jpg" height="190px alt=" Card image cap">
+            <div class="card">
+              <img class="card-img-top" src="images/audio-1851517_1920.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Poetry Slam</h5>
                 <p class="card-text">Have you ever been to a poetry slam? Experience the competition of self-written
@@ -216,11 +214,10 @@
             </div>
           </div>
 
-
+          <!-- 3.Card-->
           <div class="col">
-            <!-- 3.Card-->
-            <div class="card" style="width: 18rem; height: 25rem;">
-              <img class="card-img-top" src="images/admission-2974645_1920.jpg" height="190px alt=" Card image cap">
+            <div class="card">
+              <img class="card-img-top" src="images/admission-2974645_1920.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Comedy</h5>
                 <p class="card-text">Here you will find an overview of all current comedy acts in different locations in
@@ -235,22 +232,19 @@
     </section>
     <hr />
 
-    </div>
+  </main>
 
+  <!-- Footer Start -->
 
+  <footer class="navbar bottom navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Bonn. The city</a>
+    <a class="navbar-brand" href="#">Impressum</a>
+    <a class="navbar-brand" href="#">Datenschutz</a>
+    <a class="navbar-brand" href="#">AGBs</a>
+    <p class="navbar-brand copyright">Copyright &copy 2019; Sockenkomando</p>
+  </footer>
 
-
-    <!-- Footer Start -->
-
-    <footer class="navbar bottom navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Bonn. The city</a>
-      <a class="navbar-brand" href="#">Impressum</a>
-      <a class="navbar-brand" href="#">Datenschutz</a>
-      <a class="navbar-brand" href="#">AGBs</a>
-      <p class="navbar-brand copyright">Copyright &copy 2019; Sockenkomando</p>
-    </footer>
-
-    <!-- Footer Ende -->
+  <!-- Footer Ende -->
 
 </body>
 

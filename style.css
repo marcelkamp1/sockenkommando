@@ -21,12 +21,20 @@
 
 /* Card-Settings*/
 
+.mk_h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+  }
+
+
 .card {
     width: 18rem;
-    height: 25rem;
     cursor: pointer;
     margin: 10px;
 }
+
 
 .card-img-top{
     height: 190px;

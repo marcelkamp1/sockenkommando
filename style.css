@@ -1,3 +1,74 @@
+/* Martin's CSS Teil !!! */
+
+
+.image{ 
+	height: 600px;
+	background-size: cover;
+	background-position: 0 700px;
+}
+
+
+.image_2{ 
+	height: 600px;
+	background-size: cover;
+	background-position: 0 850px;
+}
+
+
+.image_3{ 
+	height: 600px;
+	background-size: cover;
+	background-position: 0 1050px;
+}
+
+#carouselExampleIndicators{
+	height: 600px;
+}
+
+
+.container.index {
+    border: 1px solid;
+    border-color: #D3D3D3;
+
+    border-style: solid;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+
+
+.button_ml {
+    display: flex;
+    justify-content: center;
+}
+
+.row_ml{
+	justify-content: space-around;
+}
+
+
+/
+
+
+
+
+/* Ende von Martin's CSS Teil !!! */
+
+
+
+
+.ueberschrift {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+
 /* Settings für Navbar, Footer und Sprung nach oben, Asp. Michael */
 
 .navbar li {
@@ -60,6 +131,8 @@ span.sternebewertung {
   float: left;
   margin-left: 22%;
 }
+
+
 
 .sb_jumbotron {
     position: relative;
@@ -129,6 +202,13 @@ display: none;
   height: auto;
 }
 
+.card.card_ml{
+margin-bottom: 10px;
+height: auto;
+}
+
+
+
 .card-img-top{
   height: 190px;
 
@@ -163,14 +243,6 @@ display: none;
    position: absolute;
    top: 50%;
    transform: translate(0%,-50%);
-}
-  
-
-.mk_h1{
-  display: flex;
-  justify-content: center;
-  margin-top: 6vh;
-  margin-bottom: 2vh;
 }
 
 

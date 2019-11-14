@@ -1,0 +1,157 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>Contact us</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Bonn. The city</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sight Seeing
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Museum</a>
+              <a class="dropdown-item" href="#">Drink&Eat</a>
+              <a class="dropdown-item" href="#">etc.</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href='#' class="btn btn-outline-success active" role='button' aria-pressed="true">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="seitensprung">
+      <a href='#' class='btn btn-outline-dark' role='button'>Seitenanfang</a>
+    </div>
+
+    <section>
+      <div class="container SpalteInhalt">
+        <h1>Your way to us</h1>
+        <div class="row wayToUs">
+
+          <div class="col">
+            <!-- Für Google Maps-->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80860.06812627862!2d7.047088688339595!3d50.70366463639531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee19f7ccbda49%3A0x86dbf8c6685c9617!2sBonn!5e0!3m2!1sde!2sde!4v1573636498326!5m2!1sde!2sde"
+              width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+          </div> <!-- Ende Column Google Maps-->
+          <div class="col">
+            <!-- Für den Beschreibungstext-->
+            <h2>By car</h2>
+            <ul>
+              <li>From west: from A61 to A565</li>
+              <li>From east: from A3 via A560 and A59 to A565</li>
+            </ul>
+            <h2>By train</h2>
+            <ul>
+              <li>
+                From Siegburg mainstation: Take the S66 to Bonn main station
+              </li>
+              <li>From Cologne main station: Take any regional or long distance train stopping at Bonn mainstation
+              </li>
+            </ul>
+          </div>
+          <!-- Ende Column Beschreibungstext-->
+        </div>
+        <!--Ende Row Way 2 Us-->
+        <form>
+          <section class="ueberschrift">
+            <h1>Contact us via Email</h1>
+            <a href="#">Nach oben</a>
+          </section>
+          <div class="form-row">
+
+            <div class="col-md-4 mb-3">
+              <label for="firstName">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="First name" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="lastName">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefaultUsername">Username</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                </div>
+                <input type="text" class="form-control" id="validationDefaultUsername"
+                  placeholder="john.doe@yourdomain.de" aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-4 mb-2">
+              <label for="City">City</label>
+              <input type="text" class="form-control" id="City" placeholder="City" required>
+            </div>
+            <div class="col-md-6 mb-4">
+              <label for="Street">Street</label>
+              <input type="text" class="form-control" id="Street" placeholder="Street" required>
+            </div>
+            <div class="col-md-2 mb-1">
+              <label for="zipcode">Zip</label>
+              <input type="text" class="form-control" id="zipcode" placeholder="Zip" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mailtext">Your concern</label>
+            <textarea class="form-control" id="mailtext" rows="3" placeholder="Please write your text here"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+      </div> <!-- Ende des Containers -->
+
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="navbar bottom navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Bonn. The city</a>
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Impressum <span class="sr-only">(current)</span></a>
+    </li>
+  </footer>
+</body>
+
+</html>

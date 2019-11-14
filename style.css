@@ -1,33 +1,157 @@
-li {
-    padding-left: 5vw;
+.ueberschrift {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5vh;
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-    margin-top: 6vh;
-    margin-bottom: 2vh;
+.wayToUs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.container .gallery{
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
+.navbar li {
+  list-style-type: none;
+  padding-left: 5vw;
 }
 
-.col{
-    margin-top: 25px;
+.col.gallery{
+    margin-top: 1vh;
 }
 
-
-.fixed-left{
-    position: fixed;
-    margin-top: 50vh;
-    
+h1.gallery{
+  display: flex;
+  justify-content: center;
+  margin-top: 6vh;
+  margin-bottom: 2vh;
 }
 
-footer a{
-    list-style: none;
-    margin-top: 20px;
-    color: black;
+.container .gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+}
+
+.eventsjumb {
+  position: relative;
+  height: 40%;
+}
+
+.headerimg {
+  opacity: 0.5;
+  position: relative;
+  /*position: absolute;
+    top: 0%;*/
+}
+
+.eventbox {
+ position: absolute;
+ top: 50%;
+ transform: translate(0%, -50%);
+}
+
+/* Bewertungsbuttons START */
+span#Bewertung {
+ line-height: 45px;
+}
+
+span.sternebewertung {
+  float: left;
+  margin-left: 22%;
+}
+
+span.sternebewertung:not(:checked) > input {
+ display: None;
+}
+
+span.sternebewertung:not(:checked) > label {
+ float: Right;
+ width: 1em;
+ padding: 0 .1em;
+ overflow: Hidden;
+ white-space: Nowrap;
+ cursor: Pointer;
+ font-size: 200%;
+ line-height: 1.2;
+ color: #D0D0D0;
+ text-shadow: 1px 1px #B0B0B0, 2px 2px #606060, .1em .1em .2em rgba(0,0,0,.5);
+ transition: all .5s;
+}
+
+span.sternebewertung:not(:checked) > label:before {
+ content: '★ ';
+}
+
+span.sternebewertung > input:checked ~ label {
+ color: #FFD700;
+ text-shadow: 1px 1px #C06000, 2px 2px #904000, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+span.sternebewertung:not(:checked) > label:hover,
+span.sternebewertung:not(:checked) > label:hover ~ label {
+ color: #FFD700;
+ text-shadow: 1px 1px #F29E02, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+span.sternebewertung > input:checked + label:hover,
+span.sternebewertung > input:checked + label:hover ~ label,
+span.sternebewertung > input:checked ~ label:hover,
+span.sternebewertung > input:checked ~ label:hover ~ label,
+span.sternebewertung > label:hover ~ input:checked ~ label {
+ color: #F9B500;
+ text-shadow: 1px 1px #F8BA01, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+input {
+display: none;
+}
+
+/* Bewertung ENDE */
+
+/* Settings für Navbar, Footer und Sprung nach oben, Asp. Michael */
+
+.navbar li {
+  list-style-type: none;
+  padding-left: 5vw;
+}
+
+.mk_seitensprung {
+  position: fixed;
+  right: 0;
+  z-index: 5;
+  background-color: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  color: black;
+  list-style: none;
+}
+
+footer .copyright {
+  margin-top: initial;
+  margin-bottom: initial;
+  font-size: 1rem;
+}
+
+/* Card settings */
+.card {
+  width: 18rem;
+  height: 25rem;
+  cursor: pointer;
+  margin: 10px;
+}
+.card.gallery{
+  text-align: center;
+  height: auto;
+}
+
+.card-img-top{
+  height: 190px;
+
+}
+.card:hover {
+  border: 3px solid grey;
 }

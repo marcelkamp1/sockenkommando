@@ -25,6 +25,7 @@ footer .copyright {
   font-size: 1rem;
 }
 
+
 /* Body-Settings */
 
 .mk_wayToUs {
@@ -150,10 +151,26 @@ display: none;
     position: relative;
 }
 
+
+.card.sightseeing-card {
+  width: 18rem;
+  height: 30rem;
+  cursor: pointer;
+  margin: 10px;
+}
+
 .sb_eventbox {
    position: absolute;
    top: 50%;
    transform: translate(0%,-50%);
-
 }
   
+
+.mk_h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 6vh;
+  margin-bottom: 2vh;
+}
+
+

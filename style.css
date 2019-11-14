@@ -1,42 +1,50 @@
-li {
-    padding-left: 5vw;
+/* Settings für Navbar, Footer und Sprung nach oben, Asp. Michael */
+
+.navbar li {
+  list-style-type: none;
+  padding-left: 5vw;
 }
 
-.ueberschrift {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5vw;
+.mk_seitensprung {
+  position: fixed;
+  right: 0;
+  z-index: 5;
+  background-color: white;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  color: black;
+  list-style: none;
+}
+
+footer .copyright {
+  margin-top: initial;
+  margin-bottom: initial;
+  font-size: 1rem;
+}
+
+
 
 .wayToUs {
     display: flex;
     align-items: center;
 }
 
-.navbar li {
-    list-style-type: none;
 
-h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 6vh;
-    margin-bottom: 2vh;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
+.card.sightseeing-card {
+  width: 18rem;
+  height: 30rem;
+  cursor: pointer;
+  margin: 10px;
 }
 
 
-.fixed-right{
-    display: flex;
-    align-self: center;
-    justify-content: flex-end;
+.mk_h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 6vh;
+  margin-bottom: 2vh;
 }
 
-.card {
-    min-height: 300px;
-}

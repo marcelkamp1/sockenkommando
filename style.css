@@ -18,13 +18,8 @@
    transform: translate(0%,-50%);
 
 }
- 
-.seitensprung {
-    position: fixed;
-    right: 0;
-    z-index: 5;
-    background-color: white;    
-}
+
+/* Card-Settings*/
 
 .card {
     width: 18rem;
@@ -38,5 +33,34 @@
 
 }
 .card:hover {
-	border: 3px solid grey;
+    border: 3px solid grey;
+
 }
+
+/* Settings für Navbar, Footer und Sprung nach oben, Asp. Michael */
+
+.navbar li {
+    list-style-type: none;
+    padding-left: 5vw;
+  }
+  
+  .mk_seitensprung {
+    position: fixed;
+    right: 0;
+    z-index: 5;
+    background-color: white;
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    color: black;
+    list-style: none;
+  }
+  
+  footer .copyright {
+    margin-top: initial;
+    margin-bottom: initial;
+    font-size: 1rem;
+  }
+  

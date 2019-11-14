@@ -1,55 +1,48 @@
 /* Martin's CSS Teil !!! */
 
-
-.image{ 
-	height: 600px;
-	background-size: cover;
-	background-position: 0 700px;
+.image {
+  height: 600px;
+  background-size: cover;
+  background-position: 0 700px;
 }
 
-
-.image_2{ 
-	height: 600px;
-	background-size: cover;
-	background-position: 0 850px;
+.image_2 {
+  height: 600px;
+  background-size: cover;
+  background-position: 0 850px;
 }
 
-
-.image_3{ 
-	height: 600px;
-	background-size: cover;
-	background-position: 0 1050px;
+.image_3 {
+  height: 600px;
+  background-size: cover;
+  background-position: 0 1050px;
 }
 
-#carouselExampleIndicators{
-	height: 600px;
+#carouselExampleIndicators {
+  height: 600px;
 }
-
 
 .container.index {
-    border: 1px solid;
-    border-color: #D3D3D3;
+  border: 1px solid;
+  border-color: #d3d3d3;
 
-    border-style: solid;
-    border-radius: 5px;
-    padding-top: 30px;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    margin-top: 30px;
+  border-style: solid;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  margin-top: 30px;
 }
-
-
 
 .button_ml {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.row_ml{
-	justify-content: space-around;
+.row_ml {
+  justify-content: space-around;
 }
-
 
 /
 
@@ -62,12 +55,11 @@
 
 
 .ueberschrift {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5vw;
 }
-
 
 /* Settings für Navbar, Footer und Sprung nach oben, Asp. Michael */
 
@@ -96,7 +88,6 @@ footer .copyright {
   font-size: 1rem;
 }
 
-
 /* Body-Settings */
 
 .mk_wayToUs {
@@ -105,11 +96,11 @@ footer .copyright {
   align-items: center;
 }
 
-.col.gallery{
-    margin-top: 1vh;
+.col.gallery {
+  margin-top: 1vh;
 }
 
-.mk_h1{
+.mk_h1 {
   display: flex;
   justify-content: center;
   margin-top: 6vh;
@@ -124,7 +115,7 @@ footer .copyright {
 
 /* Bewertungsbuttons START */
 span#Bewertung {
- line-height: 45px;
+  line-height: 45px;
 }
 
 span.sternebewertung {
@@ -132,46 +123,47 @@ span.sternebewertung {
   margin-left: 22%;
 }
 
-
-
 .sb_jumbotron {
-    position: relative;
-    height: 300px;
-    overflow: hidden;
-    padding: 0;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  padding: 0;
 }
 
 span.sternebewertung:not(:checked) > input {
- display: None;
+  display: None;
 }
 
 span.sternebewertung:not(:checked) > label {
- float: Right;
- width: 1em;
- padding: 0 .1em;
- overflow: Hidden;
- white-space: Nowrap;
- cursor: Pointer;
- font-size: 200%;
- line-height: 1.2;
- color: #D0D0D0;
- text-shadow: 1px 1px #B0B0B0, 2px 2px #606060, .1em .1em .2em rgba(0,0,0,.5);
- transition: all .5s;
+  float: Right;
+  width: 1em;
+  padding: 0 0.1em;
+  overflow: Hidden;
+  white-space: Nowrap;
+  cursor: Pointer;
+  font-size: 200%;
+  line-height: 1.2;
+  color: #d0d0d0;
+  text-shadow: 1px 1px #b0b0b0, 2px 2px #606060,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
 }
 
 span.sternebewertung:not(:checked) > label:before {
- content: '★ ';
+  content: "★ ";
 }
 
 span.sternebewertung > input:checked ~ label {
- color: #FFD700;
- text-shadow: 1px 1px #C06000, 2px 2px #904000, .1em .1em .2em rgba(0,0,0,.5);
+  color: #ffd700;
+  text-shadow: 1px 1px #c06000, 2px 2px #904000,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
 }
 
 span.sternebewertung:not(:checked) > label:hover,
 span.sternebewertung:not(:checked) > label:hover ~ label {
- color: #FFD700;
- text-shadow: 1px 1px #F29E02, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+  color: #ffd700;
+  text-shadow: 1px 1px #f29e02, 2px 2px #b57340,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
 }
 
 span.sternebewertung > input:checked + label:hover,
@@ -179,16 +171,16 @@ span.sternebewertung > input:checked + label:hover ~ label,
 span.sternebewertung > input:checked ~ label:hover,
 span.sternebewertung > input:checked ~ label:hover ~ label,
 span.sternebewertung > label:hover ~ input:checked ~ label {
- color: #F9B500;
- text-shadow: 1px 1px #F8BA01, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+  color: #f9b500;
+  text-shadow: 1px 1px #f8ba01, 2px 2px #b57340,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
 }
 
 input {
-display: none;
+  display: none;
 }
 
 /* Bewertung ENDE */
-
 
 /* Card settings */
 .card {
@@ -197,21 +189,18 @@ display: none;
   cursor: pointer;
   margin: 10px;
 }
-.card.gallery{
+.card.gallery {
   text-align: center;
   height: auto;
 }
 
-.card.card_ml{
-margin-bottom: 10px;
-height: auto;
+.card.card_ml {
+  margin-bottom: 10px;
+  height: auto;
 }
 
-
-
-.card-img-top{
+.card-img-top {
   height: 190px;
-
 }
 .card:hover {
   border: 3px solid grey;
@@ -227,10 +216,9 @@ height: auto;
   height: 600px;
 }
 .sb_headerimg {
-    opacity: 0.5;
-    position: relative;
+  opacity: 0.5;
+  position: relative;
 }
-
 
 .card.sightseeing-card {
   width: 18rem;
@@ -240,9 +228,7 @@ height: auto;
 }
 
 .sb_eventbox {
-   position: absolute;
-   top: 50%;
-   transform: translate(0%,-50%);
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
 }
-
-

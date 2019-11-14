@@ -36,3 +36,7 @@ h1 {
     align-self: center;
     justify-content: flex-end;
 }
+
+.card {
+    min-height: 300px;
+}

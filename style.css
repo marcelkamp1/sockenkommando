@@ -1,16 +1,24 @@
 /* Martin's CSS Teil !!! */
 
 
-.image, .image_2{ 
+.image{ 
 	height: 600px;
 	background-size: cover;
 	background-position: 0 700px;
 }
 
+
+.image_2{ 
+	height: 600px;
+	background-size: cover;
+	background-position: 0 850px;
+}
+
+
 .image_3{ 
 	height: 600px;
 	background-size: cover;
-	background-position: 0 800px;
+	background-position: 0 1050px;
 }
 
 #carouselExampleIndicators{

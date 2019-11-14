@@ -1,5 +1,88 @@
 /* Martin's CSS Teil !!! */
 
+*{
+  margin:0;
+  pedding:0;
+} *{
+  margin:0;
+  pedding:0;
+} 
+
+/*
+#carouselExampleIndicators, img{
+	height: 600px;
+}
+*/
+
+
+.image, .image_2{ 
+	height: 600px;
+	background-size: cover;
+	background-position: 0 700px;
+}
+
+.image_3{ 
+	height: 600px;
+	background-size: cover;
+	background-position: 0 800px;
+}
+
+#carouselExampleIndicators{
+	height: 600px;
+}
+
+
+.container {
+    border: 1px solid;
+    border-color: #D3D3D3;
+
+    border-style: solid;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+.card_ml {
+	margin-bottom: 10px;
+}
+
+
+
+
+.button_ml {
+    display: flex;
+    justify-content: center;
+}
+
+.row_ml{
+	justify-content: space-around;
+}
+
+
+/*
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 $blue: #DDEDFF;
 $dark-blue: #0087FF;
 
@@ -82,7 +165,7 @@ h4 {
 
 
 /*2. Teil */
-
+/*
 
 .col-1, .col-2, .col-3, .col-4,.col-5, .col-6, .col-7, .col-8, .col-9 {
   height: 8vh;
@@ -97,7 +180,14 @@ h4 {
   font-size: 18px;
 }
 
+/*
+
+
 /* Make sure images don't get too big */
+
+/*
+
+
 img {
   max-width: 100%;
 }
@@ -105,6 +195,9 @@ img {
 
 
 /* no-gutters Class Rules */
+
+/*
+
 .row.no-gutters {
    margin-right: 0;
    margin-left: 0;
@@ -114,6 +207,10 @@ img {
    padding-right: 0;
    padding-left: 0;
 }
+
+
+
+
 
 
 
@@ -145,12 +242,6 @@ h1 {
     margin-bottom: 2vh;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-}
-
 
 .fixed-right{
     display: flex;
@@ -171,6 +262,8 @@ h1 {
     /*position: absolute;
     top: 0%;*/
 }
+
+
 
 .eventbox {
    position: absolute;

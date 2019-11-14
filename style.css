@@ -1,12 +1,16 @@
-.eventsjumb{
+.jumbotron{
     position: relative;
-    height: 40%;
+    height: 300px;
+    overflow: hidden;
+    padding: 0;
 }
 
 
 .headerimg {
     opacity: 0.5;
     position: relative;
+  
+    
     /*position: absolute;
     top: 0%;*/
 }

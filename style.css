@@ -1,19 +1,5 @@
 /* Martin's CSS Teil !!! */
 
-*{
-  margin:0;
-  pedding:0;
-} *{
-  margin:0;
-  pedding:0;
-} 
-
-/*
-#carouselExampleIndicators, img{
-	height: 600px;
-}
-*/
-
 
 .image, .image_2{ 
 	height: 600px;
@@ -32,7 +18,7 @@
 }
 
 
-.container {
+.container.index {
     border: 1px solid;
     border-color: #D3D3D3;
 
@@ -44,11 +30,6 @@
     padding-left: 50px;
     margin-top: 30px;
 }
-
-.card_ml {
-	margin-bottom: 10px;
-}
-
 
 
 
@@ -62,155 +43,7 @@
 }
 
 
-/*
-.container {
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-}
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-$blue: #DDEDFF;
-$dark-blue: #0087FF;
-
-$yellow: #FEF0B2;
-$dark-yellow: #FFBD00; 
-
-$pink: #FAD2E1;
-$dark-pink: #F84F7F;
-
-$purple: #DFCCFF;
-$dark-purple: #7F51F4;
-
-@mixin color-panel($color1, $color2){
-    border: 1px solid $color2;
-    background-color: $color1;
-    color: $color2;
-}
-
-body {
-  margin: 4rem 0;
-}
- 
-h4 {
-  margin-bottom:2rem;
-  margin-top: 3rem;
-}
-
-.panel {
-  border-radius: 0.3rem;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  
-  &.panel-blue {
-    @include color-panel($blue, $dark-blue);
-  }
-  
-  &.panel-yellow{
-    @include color-panel($yellow, $dark-yellow);
-  }
-  
-  &.panel-pink{
-    @include color-panel($pink, $dark-pink);
-  }
-  
-  &.panel-purple {
-    @include color-panel($purple, $dark-purple);
-  }
-}
-
-.intro .col{
-	border: 5px solid green;
-}
-
-
-.block{
-  float:left;
-  width:33.3%;
-  border:1px solid #cccccc;
-  padding:10px;
-  box-sizing:border-box; 
-}
-
-#main-block{
-  float:left;
-  width:70%;
-  border:1px solid #cccccc;
-  padding:15px;
-  box-sizing: border-box;
-}
-
-#sidebar{
-  float:right;
-  width:30%;
-  background-color:#333333;
-  color:#ffffff;
-  padding:15px;
-  box-sizing: border-box;
-}
-
-
-
-/*2. Teil */
-/*
-
-.col-1, .col-2, .col-3, .col-4,.col-5, .col-6, .col-7, .col-8, .col-9 {
-  height: 8vh;
-}
-
-.flex-container > div {
-  background-color: #ffffff;
-  width: 60px;
-  margin: 1px;
-  text-align: center;
-  line-height: 50px;
-  font-size: 18px;
-}
-
-/*
-
-
-/* Make sure images don't get too big */
-
-/*
-
-
-img {
-  max-width: 100%;
-}
-
-
-
-/* no-gutters Class Rules */
-
-/*
-
-.row.no-gutters {
-   margin-right: 0;
-   margin-left: 0;
-}
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-   padding-right: 0;
-   padding-left: 0;
-}
-
-
-
-
+/
 
 
 
@@ -227,54 +60,174 @@ img {
     margin-top: 5vw;
 }
 
-.wayToUs {
-    display: flex;
-    align-items: center;
-}
+
+/* Settings für Navbar, Footer und Sprung nach oben, Asp. Michael */
 
 .navbar li {
-    list-style-type: none;
+  list-style-type: none;
+  padding-left: 5vw;
+}
 
-h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 6vh;
-    margin-bottom: 2vh;
+.mk_seitensprung {
+  position: fixed;
+  right: 0;
+  z-index: 5;
+  background-color: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  color: black;
+  list-style: none;
+}
+
+footer .copyright {
+  margin-top: initial;
+  margin-bottom: initial;
+  font-size: 1rem;
+}
+
+/* Body-Settings */
+
+.mk_wayToUs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.col.gallery{
+    margin-top: 1vh;
+}
+
+.mk_h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 6vh;
+  margin-bottom: 2vh;
+}
+
+.container .gallery {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+/* Bewertungsbuttons START */
+span#Bewertung {
+ line-height: 45px;
+}
+
+span.sternebewertung {
+  float: left;
+  margin-left: 22%;
 }
 
 
-.fixed-right{
-    display: flex;
-    align-self: center;
-    justify-content: flex-end;
-}
 
-
-.eventsjumb{
+.sb_jumbotron {
     position: relative;
-    height: 40%;
+    height: 300px;
+    overflow: hidden;
+    padding: 0;
+}
+
+span.sternebewertung:not(:checked) > input {
+ display: None;
+}
+
+span.sternebewertung:not(:checked) > label {
+ float: Right;
+ width: 1em;
+ padding: 0 .1em;
+ overflow: Hidden;
+ white-space: Nowrap;
+ cursor: Pointer;
+ font-size: 200%;
+ line-height: 1.2;
+ color: #D0D0D0;
+ text-shadow: 1px 1px #B0B0B0, 2px 2px #606060, .1em .1em .2em rgba(0,0,0,.5);
+ transition: all .5s;
+}
+
+span.sternebewertung:not(:checked) > label:before {
+ content: '★ ';
+}
+
+span.sternebewertung > input:checked ~ label {
+ color: #FFD700;
+ text-shadow: 1px 1px #C06000, 2px 2px #904000, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+span.sternebewertung:not(:checked) > label:hover,
+span.sternebewertung:not(:checked) > label:hover ~ label {
+ color: #FFD700;
+ text-shadow: 1px 1px #F29E02, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+span.sternebewertung > input:checked + label:hover,
+span.sternebewertung > input:checked + label:hover ~ label,
+span.sternebewertung > input:checked ~ label:hover,
+span.sternebewertung > input:checked ~ label:hover ~ label,
+span.sternebewertung > label:hover ~ input:checked ~ label {
+ color: #F9B500;
+ text-shadow: 1px 1px #F8BA01, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+input {
+display: none;
+}
+
+/* Bewertung ENDE */
+
+
+/* Card settings */
+.card {
+  width: 18rem;
+  height: 25rem;
+  cursor: pointer;
+  margin: 10px;
+}
+.card.gallery{
+  text-align: center;
+  height: auto;
+}
+
+.card.card_ml{
+margin-bottom: 10px;
+height: auto;
 }
 
 
-.headerimg {
+
+.card-img-top{
+  height: 190px;
+
+}
+.card:hover {
+  border: 3px solid grey;
+}
+
+.mk_gmap {
+  width: 600px;
+  height: 450px;
+}
+
+.mk_gmap:hover {
+  width: 800px;
+  height: 600px;
+}
+.sb_headerimg {
     opacity: 0.5;
     position: relative;
-    /*position: absolute;
-    top: 0%;*/
 }
 
 
-
-.eventbox {
+.sb_eventbox {
    position: absolute;
    top: 50%;
    transform: translate(0%,-50%);
 
 }
- 
-.seitensprung {
-    position: fixed;
-    right: 0;
-    z-index: 5;
-    background-color: white;    
-}
+
+

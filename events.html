@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html>
+<html lang="en">
 
 <head>
   <title>Events Bonn</title>
@@ -14,29 +14,28 @@
 
 
 <body>
+  <!-- Navbar und Seitensprung Start -->
+
   <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#">Bonn. The city</a>
+    <a class="navbar-brand" href="index.html">Bonn. The city</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
-        </li>
-        <li class="nav-item active dropdown">
-          <a class="nav-link dropdown-toggle" href="events.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
+          <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="events.html" id="navbarDropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Events
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#up">Upcoming Events</a>
-            <a class="dropdown-item" href="#art">Art & Culture</a>
-            <a class="dropdown-item" href="#music">Music</a>
+            <a class="dropdown-item" href="events.html#up">Upcoming Events</a>
+            <a class="dropdown-item" href="events.html#art">Art & Culture</a>
+            <a class="dropdown-item" href="events.html#music">Music</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -45,197 +44,201 @@
             Sight Seeing
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Museum</a>
-            <a class="dropdown-item" href="#">Drink&Eat</a>
-            <a class="dropdown-item" href="#">etc.</a>
+            <a class="dropdown-item" href="sightseeing.html">Buildings</a>
+            <a class="dropdown-item" href="sightseeing.html#Besonderheiten">Specials</a>
           </div>
         </li>
         <li class="nav-item">
-          <a href='#' class="btn btn-outline-success" role='button'>Contact Us</a>
+          <a href='contact.html' class="btn btn-outline-primary active" role='button' aria-pressed="true">Contact Us</a>
         </li>
       </ul>
     </div>
 
     <form class="form-inline">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
     </form>
   </nav>
 
-  <div class="seitensprung">
-    <a href='#' class='btn btn-outline-dark' role='button'>Seitenanfang</a>
-  </div>
-
   <main>
-    <div class="jumbotron eventsjumb">
-      <img class="headerimg" src="" alt="alt">
-      <div class="eventbox">
-        <h1 class="display-4 eventsdisplay-4" style="color:black">Events in Bonn</h1>
-        <p class="lead" style="color: black">Here you will find an overview of the upcoming events in Bonn.</p>
-      </div>
+
+    <div class="mk_seitensprung">
+      <a href='#' class='btn btn-outline-primary' role='button'>Seitenanfang</a>
     </div>
-  </main>
 
-  <!-- Upcoming Events-->
-  <section>
-    <div class="container">
-      <h1 id="up">Upcoming Events</h1>
+    <!-- Navbar und Seitensprung Ende -->
 
-      <div class="row">
-        <div class="col">
-          <!-- 1.Card-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/carnival-2092819_1920.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Carnival</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">See more</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <!-- 2.Card-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/fireworks-1759_640.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Rhein in Flammen</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">See more</a>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col">
-          <!-- 3.Card-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/running-1944798_1920.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Beuler10er</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">See more</a>
-            </div>
-          </div>
-        </div>
-        </div>
-
-<hr />
-<!-- Art & Culture-->
-  <section>
-    <div class="container">
-      <h1 id="art">Art & Culture</h1>
-
-      <div class="row">
-        <div class="col">
-          <!-- 1.Card-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/theater-432045_1920.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Theater</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">See more</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <!-- 2.Card-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/opera-594592_1920.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Opera</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">See more</a>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col">
-          <!-- 3.Card-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/cinema-4609877_1920.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Cinema</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">See more</a>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-        </section>
-        <hr />
-<!-- Music-->
-<section>
-  <div class="container">
-    <h1 id="music">Music</h1>
-
-    <div class="row">
-      <div class="col">
-        <!-- 1.Card-->
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="images/opera-594592_1920.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Concers</h5>
-            <p class="card-text">Some quk example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">See more</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <!-- 2.Card-->
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="images/opera-594592_1920.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Poetry Slam</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">See more</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col">
-        <!-- 3.Card-->
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="images/grove-of-trees-3646270_1920.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Comedy</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">See more</a>
-          </div>
-        </div>
-      </div>
+    <!--Jumbotron-->
+    <div class="sb_jumbotron">
+      <img class="sb_headerimg" src="images/cherry-wood-3334503_1920.jpg" alt="alt">
+      <div class="sb_eventbox">
+        <h1 class="display-4 eventsdisplay-4" style="color:black">Events in Bonn</h1>
+        <p class="lead" style="color: black">There are many things to experience in Bonn. Whether you are interested
+          in art and culture, music or sport events. The city of Bonn offers interesting events for everyone.</p>
       </div>
     </div>
     <hr />
-  </section>
-  <hr />
-  
-</div>
+
+    <!-- Upcoming Events-->
+    <section>
+      <div class="container">
+        <h1 class="mk_h1" id="up">Upcoming Events</h1>
+        <div class="row no-gutters">
+          <!-- 1.Card-->
+          <div class="col events">
+            <div class="card">
+              <img class="card-img-top" src="images/carnival-2092819_1920.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Carnival</h5>
+                <p class="card-text">Celebrate carnival with us! Or as people say here: The 5th season of the year has
+                  begun...</p>
+                <a href="#" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2.Card-->
+          <div class="col events">
+            <div class="card">
+              <img class="card-img-top" src="images/fireworks-1759_640.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Rhine in flames</h5>
+                <p class="card-text">Would you like to see the Rhine shine? You will experience fantastic fireworks...
+                </p>
+                <a href="#" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3.Card-->
+          <div class="col events">
+            <div class="card">
+              <img class="card-img-top" src="images/running-1944798_1920.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Beuler10er</h5>
+                <p class="card-text">Beueler 10er is road race over 5 or 10 km and an ideal speed test before Bonn
+                  Marathon...</p>
+                <a href="#" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    <!-- Art & Culture-->
+    <section>
+      <div class="container">
+        <h1 class="mk_h1" id="art">Art & Culture</h1>
+        <div class="row no-gutters">
+          <!-- 1.Card-->
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/theater-432045_1920.jpg" alt=" Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Theatre</h5>
+                <p class="card-text">Here you can find all information about performances at the theatres Bonn...</p>
+                <a href="#" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2.Card-->
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/opera-594592_1920.jpg" alt=" Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Opera</h5>
+                <p class="card-text">Here you can find all information about performances in the Opera Bonn...</p>
+                <a href="#" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3.Card-->
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/cinema-4609877_1920.jpg" alt=" Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Cinema</h5>
+                <p class="card-text">Here you will find an overview of all cinemas in Bonn and the surrounding
+                  districts....</p>
+                <a href="#" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
 
 
-</body>
+    <!-- Music-->
+    <section>
+      <div class="container">
+        <h1 class="mk_h1" id="music">Music</h1>
+        <div class="row no-gutters">
 
-  <!-- Footer -->
+          <!-- 1.Card-->
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/concert-768722_1920.jpg" alt=" Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Concerts</h5>
+                <p class="card-text">Here you will find an overview of all current concerts in different locations in
+                  the city...</p>
+                <a href="#" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2.Card-->
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/audio-1851517_1920.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Poetry Slam</h5>
+                <p class="card-text">Have you ever been to a poetry slam? Experience the competition of self-written
+                  texts...</p>
+                <a href="#" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3.Card-->
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/admission-2974645_1920.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Comedy</h5>
+                <p class="card-text">Here you will find an overview of all current comedy acts in different locations in
+                  the city...</p>
+                <a href="#" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <hr />
+
+  </main>
+
+  <!-- Footer Start -->
+
   <footer class="navbar bottom navbar-light bg-light">
     <a class="navbar-brand" href="index.html">Bonn. The city</a>
-    <li class="nav-item active">
-      <a class="nav-link" href="#">Impressum <span class="sr-only">(current)</span></a>
-    </li>
+    <a class="navbar-brand" href="#">Impressum</a>
+    <a class="navbar-brand" href="#">Datenschutz</a>
+    <a class="navbar-brand" href="#">AGBs</a>
+    <p class="navbar-brand copyright">Copyright &copy 2019; Sockenkomando</p>
   </footer>
 
+  <!-- Footer Ende -->
+
+</body>
 
 </html>

@@ -194,7 +194,7 @@ input {
   height: auto;
 }
 
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 300px){
   .card.smallcard{
     width: auto;
   }

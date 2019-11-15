@@ -226,11 +226,17 @@ input {
   position: relative;
 }
 
-.card.sightseeing-card {
+.card.smallcard.sightseeing-card {
   width: 18rem;
   height: 30rem;
   cursor: pointer;
   margin: 10px;
+}
+
+@media only screen and (max-width: 300px){
+  .card.smallcard{
+    width: auto !important;
+  }
 }
 
 .sb_eventbox {

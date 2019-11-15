@@ -9,13 +9,14 @@
 .image_2 {
   height: 600px;
   background-size: cover;
-  background-position: 0 850px;
+  background-position: 0 1050px;
 }
 
 .image_3 {
   height: 600px;
   background-size: cover;
-  background-position: 0 1050px;
+  background-position: 0 950px;
+  /*background-position: 0 1145px; ... zeigt mehr Dach und Himmel*/
 }
 
 #carouselExampleIndicators {
@@ -44,8 +45,9 @@
   justify-content: space-around;
 }
 
-/
-
+.carousel .carousel-item {
+    transition-duration: 0.5s;
+}
 
 
 
@@ -208,7 +210,9 @@ input {
 .card-img-top {
   height: 190px;
 }
-.card:hover {
+
+/* Dies bewirkt, dass kein hover-Effekt bei der Index-Seite stattfindet; wie es gewollt ist... */
+.container:not(.index-cards) .card:hover {
   border: 3px solid grey;
 }
 

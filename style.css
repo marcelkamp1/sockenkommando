@@ -264,3 +264,9 @@ input {
     font-size: 5vw;
   }
 }
+
+
+.display-4, .lead {
+  padding-left: 20px;
+}
+

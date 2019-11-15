@@ -202,6 +202,12 @@ input {
   }
 }
 
+@media only screen and (max-width: 300px){
+  .card-text{
+    font-size: 5vw;
+  }
+}
+
 .card.card_ml {
   margin-bottom: 10px;
   height: auto;

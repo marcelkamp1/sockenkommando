@@ -194,6 +194,12 @@ input {
   height: auto;
 }
 
+@media only screen and (max-width: 350px){
+  .card.smallcard{
+    width: auto;
+  }
+}
+
 .card.card_ml {
   margin-bottom: 10px;
   height: auto;
